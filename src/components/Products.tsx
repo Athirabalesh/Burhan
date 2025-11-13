@@ -34,7 +34,7 @@ const categories = [
   },
 ];
 
-const ProductCategories = () => {
+const Products = () => {
   return (
     <section id="products" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
@@ -66,4 +66,4 @@ const ProductCategories = () => {
   );
 };
 
-export default ProductCategories;
+export default Products;

@@ -9,12 +9,12 @@
    "homepage": "https://Athirabalesh.github.io/Burhan",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": " vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     

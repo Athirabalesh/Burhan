@@ -33,7 +33,7 @@ const features = [
   },
 ];
 
-const Features = () => {
+const WeOffer = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -61,4 +61,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default WeOffer;

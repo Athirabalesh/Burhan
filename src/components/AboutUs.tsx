@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const About = () => {
+const AboutUs = () => {
   return (
     <section id="about" className="py-20 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
@@ -53,4 +53,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutUs;
