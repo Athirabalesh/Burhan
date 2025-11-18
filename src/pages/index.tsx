@@ -1,11 +1,10 @@
-import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import WeOffer from "@/components/WeOffer";
 import HalalCertification from "@/components/HalalCertification";
-import AboutUs from "@/components/Aboutus";
+import AboutUs from "@/components/AboutUs";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -18,7 +17,7 @@ const Index = () => {
         <AboutUs />
         <Contact />
       </main>
-      <Footer />
+      
     </div>
   );
 };

@@ -10,7 +10,7 @@ import Index from "./pages/index";
 import NotFound from "./pages/NotFound";
 import Products from "./components/Products";
 import WeOffer from "./components/WeOffer";
-import AboutUs from "./components/Aboutus";
+import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 
 

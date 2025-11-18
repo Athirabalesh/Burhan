@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-frozen-foods.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+
+  const navigate = useNavigate();
+
   return (
-    <section id="home" className="relative min-h-[600px] flex items-center">
+    <section id="home" className="relative h-screen w-full flex items-center">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -21,10 +25,10 @@ const Hero = () => {
             High-quality food products that combine taste, nutrition, and convenience. From seafood to snacks, all under one brand. Halal certified.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" variant="secondary" className="text-lg px-8">
+            <Button size="lg" variant="secondary" className="text-lg px-8" onClick={() => navigate("/products")}>
               View Products
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 bg-white/10 text-white border-white hover:bg-white hover:text-primary">
+            <Button size="lg" variant="outline" className="text-lg px-8 bg-white/10 text-white border-white hover:bg-white hover:text-primary" onClick={() => navigate("/aboutus")}>
               Learn More
             </Button>
           </div>
